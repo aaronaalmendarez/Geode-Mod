@@ -1,64 +1,75 @@
+# ------------------------------------------------------------------
 # Prerequisites
 *.d
 
+# ------------------------------------------------------------------
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
+# ------------------------------------------------------------------
 # Precompiled Headers
 *.gch
 *.pch
 
+# ------------------------------------------------------------------
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
+# ------------------------------------------------------------------
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# ------------------------------------------------------------------
+# Compiled Executables
 *.exe
 *.out
 *.app
 
-# Macos be like
-**/.DS_Store
+# ------------------------------------------------------------------
+# Geode-specific artifacts
+*.geode        # packaged mods
+*.pdb          # debug symbols
+*.exp
+*.idb
+*.ilk
+*.dmp          # crash dumps
+*.log          # runtime logs
 
-# Cache files for Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-
-# Ignore build folders
+# ------------------------------------------------------------------
+# Build directories
+build/
 **/build
-# Ignore platform specific build folders
 build-*/
 
-# Workspace files are user-specific
-*.sublime-workspace
-
-# ILY vscode
-**/.vscode
-
-# Local History for Visual Studio Code
+# ------------------------------------------------------------------
+# IDE / Editor configs
+# VS Code
+.vscode/
 .history/
-
-# clangd
 .cache/
+
+# CLion
+.idea/
+cmake-build-*/
 
 # Visual Studio
 .vs/
 
-# CLion
-.idea/
-/cmake-build-*/
+# ------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# ------------------------------------------------------------------
+# Sublime Text cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
