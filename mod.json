@@ -1,0 +1,14 @@
+{
+	"geode": "4.8.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "aaron.hello_geode",
+	"name": "Hello Geode",
+	"version": "v1.0.0",
+	"developer": "aaron",
+	"description": "does something"
+}
